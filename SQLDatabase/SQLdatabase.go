@@ -13,6 +13,9 @@ type Item struct {
 	Price string `json:"price"`
 }
 
+//Global DB variable
+var dbGlobal *sql.DB
+
 func main() {
 
 	//Open SQL conenction
