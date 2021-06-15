@@ -5,6 +5,13 @@ import (
 	"strconv"
 )
 
+//A struct
+type sampleStruct struct {
+	stringInStruct string
+	intInStruct    int
+	stringForjson  string `json:"string"`
+}
+
 func main() {
 	/* ------------------
 	   fmt package
