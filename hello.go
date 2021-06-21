@@ -107,6 +107,16 @@ func loop() {
 	}
 }
 
+func create_map() {
+	m := make(map[string]int)
+
+	//loop through map
+	for key, element := range m {
+		fmt.Printf("Key: %s, Element: %d", key, element)
+	}
+
+}
+
 //Run
 //go build
 //go run hello.go
