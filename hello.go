@@ -61,17 +61,19 @@ func main() {
 
 	   ------------------ */
 
-	/* ---------- Convert STRING <-> INT ------------
+	// ---------- Convert STRING <-> INT ------------
 
-	   Package: strconv
+		aString := "Hello"
+		anInt := 69
+	   //Package: strconv
 
-	   STRING -> INT
-	   strconv.Atoi()
+	   //STRING -> INT
+	   strconv.Atoi(aString)
 
-	   INT -> STRING
-	   strconv.Itoa()
+	   //INT -> STRING
+	   strconv.Itoa(anInt)
 
-	   ------------------------------------------------*/
+	  // ------------------------------------------------
 
 	a, err := strconv.Atoi("123")
 	if err != nil {
